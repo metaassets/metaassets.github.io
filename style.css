@@ -24,12 +24,35 @@ src: url(fonts/frankfrt.ttf);
 
 body{
 
-	.background-image: url(images/bg.jpg);
+	/*background-image: url(images/bg.jpg);*/
 	background-size: cover;
 
 
 }
 
+.float{
+
+	animation: animate 3s infinite;
+
+
+}
+
+@keyframes animate {
+	0%{
+		transform: translateY(-5px);
+
+	}
+	50%{
+		transform: translateY(0px);
+
+	}
+	100%{
+		transform: translateY(-5px);
+
+	}
+	
+	
+}
 
 
 .container{
@@ -48,7 +71,7 @@ body{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 150px 0;
+	margin: 250px 0;
 	
 }
 
@@ -124,7 +147,7 @@ body{
 
 .car-1{
 
- background-image: url(images/land.png);
+ background-image: url(images/house.jpg);
  
 
 
@@ -132,7 +155,7 @@ body{
 
 .car-2{
 
-	background-image: url(images/car.png);
+	background-image: url(images/car.jpg);
    
    }
 
@@ -207,11 +230,12 @@ nav ul li a:hover{
 
 
 .col-1{
-	flex-basis: 40%;
+	flex-basis: 48%;
 	position: relative;
-	margin-left: 5px;
+	margin-left: 51px;
 	
 	align-items: center;
+	
 	
 }
 
@@ -220,7 +244,10 @@ nav ul li a:hover{
 	position: relative;
 	flex-basis: 80%;
 	display: flex;
-	align-items: center;
+	margin: auto;
+	justify-content: center;
+	
+	
 	
 }
 
@@ -310,7 +337,7 @@ button img{
 
 .col-2 .land{
 
-	width: 70%;
+	width: 100%;
 	
 	
 }
@@ -325,7 +352,8 @@ button img{
 
 .land-text{
 	display: block;
-	text-indent: 90px;
+	text-align: center;
+	text-indent: -50px;
 	font-family: mfont;
 	font-size: 34px;
 	color: #368fb3;
