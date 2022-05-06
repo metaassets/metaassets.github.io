@@ -185,9 +185,10 @@ body{
 	margin: 10px 0;
 	
 	
+	
 }
 
-.menu-icon{
+.menu{
 	width: 25px;
 	cursor: pointer;
 	display: none;
@@ -475,7 +476,7 @@ button img{
 @media only screen and (max-width:700px){
 	nav ul{
 		width:100%;
-		background: linear-gradient(#ff54a2, #ff575a);
+		background: linear-gradient(#54d7ff, #57c1ff);
 		position: absolute;
 		top: 75px;
 		right: 0;
@@ -502,8 +503,12 @@ button img{
 		
 	}
 	
-	.menu-icon{
+	.menu{
 		display: block;
+		color:grey;
+		cursor: pointer;
+		
+		
 	}
 	
 	#menuList{
@@ -562,9 +567,9 @@ button img{
 	
 	.land-text{
 		display: block;
-		text-indent: 90px;
+		text-indent: 10px;
 		font-family: mfont;
-		font-size: 3vh;
+		font-size: 4vh;
 		color: #368fb3;
 		white-space: nowrap;
 		
