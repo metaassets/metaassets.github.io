@@ -1,8 +1,11 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: NanumPenScript;
+
+	src: url(fonts/NanumPenScript-Regular.ttf);
 	box-sizing: border-box;
+	
 	
 	
 
@@ -16,8 +19,9 @@ src: url(fonts/font.ttf);
 }
 
 @font-face{
-font-family: frankfrt;
-src: url(fonts/frankfrt.ttf);
+font-family: NanumPenScript;
+
+src: url(fonts/NanumPenScript-Regular.ttf);
 
 }
 
@@ -137,7 +141,7 @@ body{
 	display: block;
 	text-align: center;
 	margin: auto;
-
+	font-size: 1.5vw;
 	border-radius: 6px;
 	cursor: pointer;
 	text-decoration: none;
@@ -212,9 +216,11 @@ body{
 }
 
 .menu{
-	width: 25px;
+	font-size: 5vw;
 	cursor: pointer;
 	display: none;
+	
+	
 	
 	
 }
@@ -236,17 +242,19 @@ nav ul li{
 	
 }
 
+
 nav ul li a{
 	text-decoration: none;
-	color: rgb(128, 128, 128);
-	font-size: 14px;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px 10px #202020;
+	font-size: 2vw;
 	font-weight: bold;
 	
 }
 
 nav ul li a:hover{
 	
-	color: rgb(255, 145, 0);
+	color: rgb(255, 197, 122);
 	
 	
 }
@@ -313,10 +321,10 @@ nav ul li a:hover{
 .col-3 h3{
 	
 	font-size:2vw;
-	color: #999890;
+	color: #474747;
 	font-weight: 100;
 	margin: 1px 0 20px;
-	font-family:frankfrt;
+	font-family:NanumPenScript;
 
 }
 
@@ -334,16 +342,19 @@ nav ul li a:hover{
 	font-family: mfont;
 	font-size: 3vw;
 	color: #368fb3;
+	text-shadow: 2px 2px 4px #ffffff;
 	white-space: nowrap;
 }
 
 .col-1 h3{
 	
 	font-size:2vw;
-	color: #999890;
+	color: #ffffec;
+	text-shadow: 2px 2px 4px #5a5a5a;
 	font-weight: 100;
 	margin: 1px 0 20px;
-	font-family:frankfrt;
+	font-family:NanumPenScript;
+	
 
 }
 
@@ -365,11 +376,12 @@ nav ul li a:hover{
 button{
 	width: 140px;
 	border: 0;
-	padding : 12px 10px;
+	padding : 6px 5px;
 	outline: none;
 	color: #fff;
-	 background: linear-gradient(to right, #99e4f1, #089ca7); 
+	background: linear-gradient(to right,rgb(255, 177, 75), #ffe96b); 
 	text-decoration: none;
+	font-size: 2vw;
 	border-radius: 6px;
 	cursor: pointer;
 	font-weight: bold;
@@ -381,6 +393,7 @@ button{
 
 button:hover{
 	transform: scale(1.03);
+	
 	
 	
 }
@@ -509,7 +522,7 @@ button img{
 @media only screen and (max-width:700px){
 	nav ul{
 		width:100%;
-		background: linear-gradient(#54d7ff, #57c1ff);
+		background: linear-gradient(#7ee1ff, #7bbde4);
 		position: absolute;
 		top: 75px;
 		right: 0;
@@ -526,6 +539,7 @@ button img{
 	nav ul li a{
 		
 		color: #fff;
+		font-size: 3vw;
 		
 	}
 
@@ -538,8 +552,13 @@ button img{
 	
 	.menu{
 		display: block;
-		color:grey;
+		
 		cursor: pointer;
+		width: 25px;
+		cursor: pointer;
+	
+		color: rgb(255, 255, 255);
+		text-shadow: 2px 2px 8px #3d3d3d;
 		
 		
 	}
