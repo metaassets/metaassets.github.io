@@ -578,7 +578,9 @@ button img{
 	
 	.col-2{
 		flex-basis: 100%;
-		margin-bottom: 50px;
+		
+		margin-bottom: 5px;
+		margin-top: 20px;
 		
 		
 		
@@ -651,6 +653,39 @@ button img{
 		mix-blend-mode: normal;
 	
 	
+	}
+	.card a{
+
+	
+		color: white;
+		padding: 15px 20px;
+		display: block;
+		text-align: center;
+		margin: auto;
+		font-size: 4vw;
+		border-radius: 6px;
+		cursor: pointer;
+		text-decoration: none;
+		
+		
+	
+	}
+
+	button{
+		width: 100px;
+		border: 0;
+		padding : 6px 5px;
+		outline: none;
+		color: #fff;
+		background: linear-gradient(to right,rgb(255, 177, 75), #ffe96b); 
+		text-decoration: none;
+		font-size: 4vw;
+		border-radius: 6px;
+		cursor: pointer;
+		font-weight: bold;
+		
+		
+		
 	}
 
 	   .social-links {
