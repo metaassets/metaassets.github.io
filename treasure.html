@@ -188,6 +188,7 @@ img {
 .card {
   display: flex;
   flex-direction: column;
+  height: auto;
   width: clamp(20rem, calc(20rem + 2vw), 20rem);
   overflow: hidden;
   box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
@@ -202,6 +203,10 @@ img {
   display: flex;
   flex-direction: column;
   gap: .5rem;
+}
+
+.card__body p {
+  font-size: 1.5vw;
 }
 	
 .payment{
@@ -228,6 +233,13 @@ img {
 	margin-bottom: 2px;
 }
 
+@media only screen and (max-width:991px)
+{
+	.card__body p {
+  font-size: 3.5vw;
+}
+
+}
 
 
 </style>

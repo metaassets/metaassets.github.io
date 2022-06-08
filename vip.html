@@ -54,7 +54,7 @@
 		  </div>
 		  <div class="card">
 			<div class="card__header">
-			  <img src="/images/back.jpg" alt="card__image" class="card__image" width="600">
+			  <img src="/images/vipAnimation.gif" alt="card__image" class="card__image" width="600">
 			</div>
 			<div class="card__body">
 			
@@ -64,7 +64,7 @@
 		  </div>
 		  <div class="card">
 			<div class="card__header">
-			  <img src="/images/side.jpg" alt="card__image" class="card__image" width="600">
+			  <img src="/images/back.jpg" alt="card__image" class="card__image" width="600">
 			</div>
 			<div class="card__body">
 			 
@@ -188,6 +188,7 @@ img {
 .card {
   display: flex;
   flex-direction: column;
+  height: auto;
   width: clamp(20rem, calc(20rem + 2vw), 20rem);
   overflow: hidden;
   box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
@@ -203,7 +204,11 @@ img {
   flex-direction: column;
   gap: .5rem;
 }
-	
+
+.card__body p {
+  font-size: 1.5vw;
+}
+
 .payment{
 
 	display: flex;
@@ -228,6 +233,13 @@ img {
 	margin-bottom: 2px;
 }
 
+@media only screen and (max-width:991px)
+{
+	.card__body p {
+  font-size: 3.5vw;
+}
+
+}
 
 
 </style>

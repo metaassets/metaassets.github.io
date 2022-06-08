@@ -554,7 +554,7 @@ button img{
 	
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:991px){
 	nav ul{
 		width:100%;
 		background: linear-gradient(#7ee1ff, #7bbde4);
@@ -589,7 +589,7 @@ button img{
 		display: block;
 		
 		cursor: pointer;
-		width: 25px;
+		width: auto;
 		cursor: pointer;
 	
 		color: rgb(255, 255, 255);
@@ -611,12 +611,19 @@ button img{
 			
 	}
 	
-	.col-2{
+	.col-1{
 		flex-basis: 100%;
 		
 		margin-bottom: 5px;
 		margin-top: 20px;
 		
+		
+	}
+	.col-2{
+		flex-basis: 100%;
+		
+		margin-bottom: 5px;
+		margin-top: 20px;
 		
 		
 		
@@ -643,10 +650,7 @@ button img{
 		
 	}
 	
-	.col-1{
-		
-		flex-basis: 100%;
-	}
+	
 	
 	.col-1 h2{
 		font-size: 35px;
@@ -748,8 +752,8 @@ button img{
 		border-radius: 51px;
 		margin: auto auto;
 		display: flex;
-		  align-items: center;
-		  justify-content: center;
+		align-items: center;
+		justify-content: center;
 		
 	
 		
