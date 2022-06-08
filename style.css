@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: NanumPenScript;
-
+	
 	src: url(fonts/NanumPenScript-Regular.ttf);
 	box-sizing: border-box;
 	
@@ -129,7 +129,6 @@ body{
 	background: linear-gradient(90deg, #d5f2ff, #adecff);
 	background-size: cover;
 	background-image: url(images/ReachMetaverse.jpg);
-	
 	
 
 
@@ -410,9 +409,9 @@ nav ul li a:hover{
 
 
 button{
-	width: 140px;
+	width: auto;
 	border: 0;
-	padding : 6px 5px;
+	padding : 5px 15px;
 	outline: none;
 	color: #fff;
 	background: linear-gradient(to right,rgb(255, 177, 75), #ffe96b); 
