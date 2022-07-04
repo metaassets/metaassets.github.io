@@ -18,11 +18,9 @@
 	<link rel="manifest" href="/site.webmanifest">
 </head>
 <body >
-	<div id="preloader">
-		<div class="txt">
-			<p class="txt-perc">0%</p>
-			<div class="progress"><span></span></div>
-		</div>
+	<div class="loader-wrapper">
+		<img src="/images/loading.gif">
+
 	</div>
 	
 	  
@@ -194,7 +192,12 @@ function togglemenu()
 	}
 
 }
+</script>
 
+<script>
+	$(window).on("load",function(){
+		$(".loader-wrapper").fadeOut("slow")
+	});
 
 </script>
 
