@@ -8,6 +8,7 @@
 	<meta name="keywords" content="Metaverse, CNFT, Cardano, Meta Assets, 3D NFT, 3D CNFT">
 
 	<meta name="description" content="Meta Assets: Metaverse 3D NFT Assets">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	
 	<title> Meta Assets: Your Metaverse Needs </title>
 	<link rel="stylesheet" href="style.css">
@@ -17,7 +18,12 @@
 	<link rel="manifest" href="/site.webmanifest">
 </head>
 <body >
-	
+	<div id="preloader">
+		<div class="txt">
+			<p class="txt-perc">0%</p>
+			<div class="progress"><span></span></div>
+		</div>
+	</div>
 	
 	  
 	
@@ -191,19 +197,6 @@ function togglemenu()
 
 
 </script>
-
-<script>
-	$('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
-$(window).on('load', function(){
-  setTimeout(removeLoader, 2000); //wait for page load PLUS two seconds.
-});
-function removeLoader(){
-    $( "#loadingDiv" ).fadeOut(500, function() {
-      // fadeOut complete. Remove the loading div
-      $( "#loadingDiv" ).remove(); //makes page more lightweight 
-  });  
-}
-  </script>
 
 
 
