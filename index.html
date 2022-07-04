@@ -19,8 +19,9 @@
 </head>
 <body >
 	<div class="loader-wrapper">
-		<span class="loader"><span class="loader-inner"></span></span>
-	</div>
+		<h2>Please wait loading...</h2>
+		<img src="/images/loading.gif">
+		</div>
 	
 	  
 	
@@ -195,8 +196,20 @@ function togglemenu()
 </script>
 
 <script>
+	$('html, body').css({
+  'overflow': 'hidden',
+  'height': '100%'
+})
+</script>
+
+<script>
 	$(window).on("load",function(){
      $(".loader-wrapper").fadeOut("slow");
+
+	 $('html, body').css({
+  	'overflow': 'auto',
+  	'height': 'auto'
+})
 });
 
 </script>
