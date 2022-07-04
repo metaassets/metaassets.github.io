@@ -8,9 +8,9 @@
 	<meta name="keywords" content="Metaverse, CNFT, Cardano, Meta Assets, 3D NFT, 3D CNFT">
 
 	<meta name="description" content="Meta Assets: Metaverse 3D NFT Assets">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	
 	<title> Meta Assets: Your Metaverse Needs </title>
+	<script src="jquery-2.1.4.js"></script>
 	<link rel="stylesheet" href="style.css">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -19,8 +19,7 @@
 </head>
 <body >
 	<div class="loader-wrapper">
-		<img src="/images/loading.gif">
-
+		<span class="loader"><span class="loader-inner"></span></span>
 	</div>
 	
 	  
@@ -175,6 +174,7 @@
 	</div>
 
 
+	
 <script>
 var menuList = document.getElementById("menuList");
 menuList.style.maxHeight = "0px";
@@ -196,8 +196,8 @@ function togglemenu()
 
 <script>
 	$(window).on("load",function(){
-		$(".loader-wrapper").fadeOut("slow")
-	});
+     $(".loader-wrapper").fadeOut("slow");
+});
 
 </script>
 
